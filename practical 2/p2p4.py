@@ -1,4 +1,5 @@
 animal = "elephant"
+
 letter1 = animal[0]
 letter2 = animal[1]
 letter3 = animal[2]
