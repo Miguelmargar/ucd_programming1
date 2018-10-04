@@ -1,3 +1,24 @@
+"""
+ask user input
+
+if user input == 0:
+    print message
+elif user input < 0:
+    create new_num = - user input
+else:
+    new_num = number
+    
+create counter
+while counter cubed < new_num:
+    counter up by 1
+    if counter cubed == new_num:
+        print message
+    else:
+        print message
+"""
+
+
+
 number = int(input("please type a number: "))
 
 if number == 0:

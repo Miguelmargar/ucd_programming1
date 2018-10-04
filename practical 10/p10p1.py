@@ -1,3 +1,17 @@
+"""
+ask user for input
+if user input is less than 0:
+    print message
+else:
+    start counter
+    while counter squared is less than user input:
+        increase counter by 1
+        if counter squared equals number:
+            print message
+        else:
+            print message
+"""
+
 
 number = int(input("please type a positive number: "))
 

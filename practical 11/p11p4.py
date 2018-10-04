@@ -1,3 +1,23 @@
+"""
+ask for user input
+
+for i in range(0 to user input + 1):
+    user input == i
+    
+    work out 2 * user input
+    work out user input + 1
+    
+    obtain fac_2n
+    
+    obtain fact_n_1
+    
+    obtain fact of user input
+    
+    user factorials above with formula
+    
+    print catalan results in for loop
+"""
+
 limit = int(input("please type a positive number: "))
 
 for each in range(0, limit + 1):
