@@ -1,0 +1,16 @@
+# definition of function
+def maximum(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+        
+
+# calling of function
+
+number_1 = int(input("Please input a number: "))
+number_2 = int(input("Please input a number: "))
+
+biggest = maximum(number_1, number_2)
+
+print("The biggest is:", biggest)

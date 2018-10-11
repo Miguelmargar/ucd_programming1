@@ -1,0 +1,3 @@
+3)a) it prints the biggest number given in the two argumenst
+3)b) it does nothing as without the () it does not call the function, you need the () to call a function
+3)c) the console gave the following feedback: <function print_max at 0x7fdff10f8bf8>, I think that it tried to print however as inside the print statement there was no string and no variable called print_max or it was not a function due to the lack of (), the console printed the above feedback
