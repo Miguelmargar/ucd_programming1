@@ -11,10 +11,10 @@ number = int(input("type a number: "))
 #     i += 1
 
 # addition table - for loop
-for i in range(0, number + 1):
-    for j in range(0, number + 1):
-        print (i + j, " ", end = " ")
-    print()
+# for i in range(0, number + 1):
+#     for j in range(0, number + 1):
+#         print (i + j, " ", end = " ")
+#     print()
   
 # multiplication table - while
 # i = 1
@@ -81,4 +81,29 @@ for i in range(0, number + 1):
 #         print(number, "Is a leap year")
 # else:
 #     print(number, "Is not a leap year")
-        
+   
+   
+# aproximate square root search
+# epsilon = 0.5
+# step = epsilon ** 2 # then this is 0.25
+
+# root = 0.0
+# # first condition works from the number given down
+# # second condition works from the initial root value up to ensure that it does not go over the number to check
+# while abs(number - root ** 2) >= epsilon and root ** 2 <= number: 
+#     root += step
+
+# if abs(number - root ** 2) < epsilon:
+#     print("the aprox square root of", number, "is:", root)
+# else:
+#     print("failed to finish the square root of:", number)
+    
+# print("finished")
+    
+
+    
+    
+# print(number - root ** 2)
+  
+  
+   
