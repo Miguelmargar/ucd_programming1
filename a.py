@@ -11,14 +11,12 @@ number = int(input("type a number: "))
 #     i += 1
 
 # addition table - for loop
-# i = 0
-# for i in range(0, number + 1):
-#     j = 0
-#     for j in range(0, number + 1):
-#         print (i + j, " ", end = " ")
-#         j += 1 
-#     print()
-#     i += 1
+for i in range(0, number + 1):
+    for j in range(0, number + 1):
+        print (i + j, " ", end = " ")
+        j += 1 
+    print()
+    i += 1
   
 # multiplication table - while
 # i = 1
