@@ -14,9 +14,7 @@ number = int(input("type a number: "))
 for i in range(0, number + 1):
     for j in range(0, number + 1):
         print (i + j, " ", end = " ")
-        j += 1 
     print()
-    i += 1
   
 # multiplication table - while
 # i = 1
