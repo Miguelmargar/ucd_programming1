@@ -7,7 +7,6 @@ def xyz(str):
     
     """
     #set up wrong and right
-    wrong = "."
     right = "xyz"
     #loop through the range of the string up to and not including index -2
     for i in range(len(str) -2):

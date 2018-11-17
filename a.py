@@ -21,9 +21,9 @@ number = int(input("type a number: "))
 #     i += 1
   
 # multiplication table - while
-# i = 0
+# i = 1
 # while i <= number:
-#     j = 0
+#     j = 1
 #     while j <= i:
 #         print(j * i, " ", end = " ")
 #         j += 1
@@ -31,8 +31,8 @@ number = int(input("type a number: "))
 #     i += 1
     
 # multiplication table - for loop    
-# for i in range(1, number + 1):
-#     for j in range(1, i + 1):
+# for i in range(0, number + 1):
+#     for j in range(0, i + 1):
 #         print (j * i, " ", end = " ")
 #     print()
 
@@ -52,7 +52,6 @@ number = int(input("type a number: "))
 # fibonacci - for loop
 # fib_0 = 0
 # fib_1 = 1
-
 # print(fib_0, ",", fib_1, end = " ")
 # for i in range(0, number + 1):
 #     fib = fib_0 + fib_1
@@ -74,3 +73,16 @@ number = int(input("type a number: "))
 # for i in range(1,  number + 1):
 #     fact *= i
 # print(fact)
+
+# find leap year:
+# if number % 4 == 0:
+#     if number % 100 == 0:
+#         if number % 400 == 0:
+#             print(number, "Is a leap year")
+#         else:
+#             print(number, "Is not a leap year")
+#     else:
+#         print(number, "Is a leap year")
+# else:
+#     print(number, "Is not a leap year")
+        
