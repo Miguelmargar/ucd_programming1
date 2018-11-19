@@ -1,4 +1,4 @@
-number = int(input("type a number: "))
+# number = int(input("type a number: "))
 
 # addition table - while
 # i = 0
@@ -79,6 +79,7 @@ number = int(input("type a number: "))
 
 # print(fact(number))
 
+
 # find leap year:
 # if number % 4 == 0:
 #     if number % 100 == 0:
@@ -108,11 +109,34 @@ number = int(input("type a number: "))
 #     print("failed to finish the square root of:", number)
     
 # print("finished")
-    
-
-    
-    
 # print(number - root ** 2)
   
-  
+# Palindrome - recursive
+# string = input("type a string: ")
+# def isPalindrome(s):
+      
+#     def toChars(s):
+#         s = s.lower()
+#         import string
+#         letterString = ""
+#         for i in s:
+#             if i in string.ascii_letters:
+#                 letterString += i
+#         return letterString
+        
+#     def isPal(s):
+#         if len(s) <= 1:
+#             return True
+#         else:
+#             return s[0] == s[-1] and isPal(s[1:-1])
+        
+#     return isPal(toChars(s))
+
+# if string != "":
+#     if isPalindrome(string):
+#         print(string, "Is a palindrome")
+#     else:
+#         print(string, "Is not a palindrome")
+
+        
    
