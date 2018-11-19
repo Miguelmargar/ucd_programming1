@@ -70,6 +70,15 @@ number = int(input("type a number: "))
 #     fact *= i
 # print(fact)
 
+# factorial - recursive
+# def fact(x):
+#     if x == 0:
+#         return 1
+#     else:
+#         return x * fact(x - 1)
+
+# print(fact(number))
+
 # find leap year:
 # if number % 4 == 0:
 #     if number % 100 == 0:
