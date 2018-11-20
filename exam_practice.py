@@ -1,4 +1,4 @@
-# number = int(input("type a number: "))
+number = int(input("type a number: "))
 
 # addition table - while
 # i = 0
@@ -139,4 +139,3 @@
 #         print(string, "Is not a palindrome")
 
         
-   
