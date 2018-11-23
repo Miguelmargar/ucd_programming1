@@ -10,17 +10,17 @@ length = len(word)
 hide_word = list("_" * length)
 print(hide_word)
 
-# guess = input("please guess a letter: ")
 
 counter = length
 
 lives = 6
 while ("_" in hide_word):
     guess = input("please guess a letter: ")
-    if guess in word:
+    g_low = guess.lower() 
+    if g_low in word:
         print("your guess is correct!")
         for i in range(len(word)):
-            if word[i] == guess:
+            if word[i] == g_low:
                 hide_word[i] = guess
         print(hide_word)
         print()
